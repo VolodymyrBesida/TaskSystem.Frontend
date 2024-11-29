@@ -1,0 +1,23 @@
+.adaptive-modal {
+    width: 450px;
+    height: 450px;
+    margin: 20px;
+}
+
+@media(max-width: 425px) {
+    .adaptive-modal {
+        width: 300px;
+    }
+}
+
+@media(max-width: 375px) {
+    .adaptive-modal {
+        width: 250px;
+    }
+}
+
+@media(max-width: 320px) {
+    .adaptive-modal {
+        width: 200px;
+    }
+}
